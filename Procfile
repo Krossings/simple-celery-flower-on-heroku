@@ -1,1 +1,1 @@
-web: python -m flower --address=0.0.0.0 --port=$PORT --broker=$BROKER_URL --basic_auth=eng-tools@krossings.com:eatingceleryisgoodforyou
+web: python -m flower --broker=$BROKER_URL --basic_auth=eng-tools@krossings.com:eatingceleryisgoodforyou
