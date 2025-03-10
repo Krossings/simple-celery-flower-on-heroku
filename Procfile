@@ -1,1 +1,1 @@
-web: python -m flower --broker=$BROKER_URL --basic_auth=eng-tools@krossings.com:eatingceleryisgoodforyou
+web: celery -A core flower --port=$PORT --broker=$BROKER_URL
